@@ -1,0 +1,23 @@
+#pragma once
+
+// The Cycle Frontier (1.X) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+#include "Basic.hpp"
+#include "UMG_classes.hpp"
+#include "Engine_classes.hpp"
+#include "Structure_SelectorData_classes.hpp"
+#include "Prospect_classes.hpp"
+#include "YAzureFunctionsUtils_classes.hpp"
+#include "BackendModels_classes.hpp"
+
+namespace SDK
+{
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
