@@ -35,12 +35,12 @@ void AFX_StormManager01_Clouds_BP_C::SetCloudProperties(const struct FYMatchPhas
 }
 
 
-// Function FX_StormManager01_Clouds_BP.FX_StormManager01_Clouds_BP_C.SpawnLightning
+// Function FX_StormManager01_Clouds_BP.FX_StormManager01_Clouds_BP_C.spawnLightning
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
-void AFX_StormManager01_Clouds_BP_C::SpawnLightning()
+void AFX_StormManager01_Clouds_BP_C::spawnLightning()
 {
-	static UFunction* fn = UObject::FindObject<UFunction>(_xor_("Function FX_StormManager01_Clouds_BP.FX_StormManager01_Clouds_BP_C.SpawnLightning"));
+	static UFunction* fn = UObject::FindObject<UFunction>(_xor_("Function FX_StormManager01_Clouds_BP.FX_StormManager01_Clouds_BP_C.spawnLightning"));
 
 	struct
 	{

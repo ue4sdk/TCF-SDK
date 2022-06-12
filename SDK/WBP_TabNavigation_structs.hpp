@@ -10,8 +10,8 @@
 #include "WBP_TabNavigationBase_classes.hpp"
 #include "Engine_classes.hpp"
 #include "Stucture_TabData_classes.hpp"
-#include "Stucture_TabBIData_classes.hpp"
 #include "UMG_classes.hpp"
+#include "Stucture_TabBIData_classes.hpp"
 #include "Prospect_classes.hpp"
 
 namespace SDK

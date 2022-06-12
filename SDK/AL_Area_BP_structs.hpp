@@ -7,8 +7,8 @@
 #endif
 
 #include "Basic.hpp"
-#include "CoreUObject_classes.hpp"
 #include "AL_Base_BP_classes.hpp"
+#include "CoreUObject_classes.hpp"
 
 namespace SDK
 {

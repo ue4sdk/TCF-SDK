@@ -15,20 +15,20 @@ namespace SDK
 // Function WBP_EndOfMatch_SeasonProgression_Menu.WBP_EndOfMatch_SeasonProgression_Menu_C.GetNumberOfTimesCompletedFrom DeltaActions
 // (FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
-// struct FString                 InputActionId                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash)
+// struct FString                 inputActionId                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash)
 // int                            outNumberOfTimesCompleted      (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
-void UWBP_EndOfMatch_SeasonProgression_Menu_C::GetNumberOfTimesCompletedFrom_DeltaActions(const struct FString& InputActionId, int* outNumberOfTimesCompleted)
+void UWBP_EndOfMatch_SeasonProgression_Menu_C::GetNumberOfTimesCompletedFrom_DeltaActions(const struct FString& inputActionId, int* outNumberOfTimesCompleted)
 {
 	static UFunction* fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EndOfMatch_SeasonProgression_Menu.WBP_EndOfMatch_SeasonProgression_Menu_C.GetNumberOfTimesCompletedFrom DeltaActions"));
 
 	struct
 	{
-		struct FString                 InputActionId;
+		struct FString                 inputActionId;
 		int                            outNumberOfTimesCompleted;
 	} params = {};
 
-	params.InputActionId = InputActionId;
+	params.inputActionId = inputActionId;
 
 	if (fn)
 	{
@@ -133,20 +133,20 @@ void UWBP_EndOfMatch_SeasonProgression_Menu_C::OnCurrentDataUpdated(const struct
 // Function WBP_EndOfMatch_SeasonProgression_Menu.WBP_EndOfMatch_SeasonProgression_Menu_C.GetActionNumberOfTimesCompletedById
 // (FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
-// struct FString                 InputActionId                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash)
+// struct FString                 inputActionId                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash)
 // int                            NumberOfTimesCompleted         (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
-void UWBP_EndOfMatch_SeasonProgression_Menu_C::GetActionNumberOfTimesCompletedById(const struct FString& InputActionId, int* NumberOfTimesCompleted)
+void UWBP_EndOfMatch_SeasonProgression_Menu_C::GetActionNumberOfTimesCompletedById(const struct FString& inputActionId, int* NumberOfTimesCompleted)
 {
 	static UFunction* fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EndOfMatch_SeasonProgression_Menu.WBP_EndOfMatch_SeasonProgression_Menu_C.GetActionNumberOfTimesCompletedById"));
 
 	struct
 	{
-		struct FString                 InputActionId;
+		struct FString                 inputActionId;
 		int                            NumberOfTimesCompleted;
 	} params = {};
 
-	params.InputActionId = InputActionId;
+	params.inputActionId = inputActionId;
 
 	if (fn)
 	{
@@ -180,22 +180,22 @@ void UWBP_EndOfMatch_SeasonProgression_Menu_C::InitExecution()
 // Function WBP_EndOfMatch_SeasonProgression_Menu.WBP_EndOfMatch_SeasonProgression_Menu_C.GetActionDataById
 // (FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
-// struct FString                 InputActionId                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash)
+// struct FString                 inputActionId                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash)
 // struct FYFortunaPassAction     FortunaPassAction              (CPF_Parm, CPF_OutParm)
 // bool                           IsActionDataFound              (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
 
-void UWBP_EndOfMatch_SeasonProgression_Menu_C::GetActionDataById(const struct FString& InputActionId, struct FYFortunaPassAction* FortunaPassAction, bool* IsActionDataFound)
+void UWBP_EndOfMatch_SeasonProgression_Menu_C::GetActionDataById(const struct FString& inputActionId, struct FYFortunaPassAction* FortunaPassAction, bool* IsActionDataFound)
 {
 	static UFunction* fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EndOfMatch_SeasonProgression_Menu.WBP_EndOfMatch_SeasonProgression_Menu_C.GetActionDataById"));
 
 	struct
 	{
-		struct FString                 InputActionId;
+		struct FString                 inputActionId;
 		struct FYFortunaPassAction     FortunaPassAction;
 		bool                           IsActionDataFound;
 	} params = {};
 
-	params.InputActionId = InputActionId;
+	params.inputActionId = inputActionId;
 
 	if (fn)
 	{
@@ -212,20 +212,20 @@ void UWBP_EndOfMatch_SeasonProgression_Menu_C::GetActionDataById(const struct FS
 // Function WBP_EndOfMatch_SeasonProgression_Menu.WBP_EndOfMatch_SeasonProgression_Menu_C.CheckIfActionIsCompletedThisDrop
 // (FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
-// struct FString                 InputActionId                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash)
+// struct FString                 inputActionId                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash)
 // bool                           IsActionFound                  (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
 
-void UWBP_EndOfMatch_SeasonProgression_Menu_C::CheckIfActionIsCompletedThisDrop(const struct FString& InputActionId, bool* IsActionFound)
+void UWBP_EndOfMatch_SeasonProgression_Menu_C::CheckIfActionIsCompletedThisDrop(const struct FString& inputActionId, bool* IsActionFound)
 {
 	static UFunction* fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EndOfMatch_SeasonProgression_Menu.WBP_EndOfMatch_SeasonProgression_Menu_C.CheckIfActionIsCompletedThisDrop"));
 
 	struct
 	{
-		struct FString                 InputActionId;
+		struct FString                 inputActionId;
 		bool                           IsActionFound;
 	} params = {};
 
-	params.InputActionId = InputActionId;
+	params.inputActionId = inputActionId;
 
 	if (fn)
 	{

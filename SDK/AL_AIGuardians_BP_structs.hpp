@@ -7,8 +7,8 @@
 #endif
 
 #include "Basic.hpp"
-#include "CoreUObject_classes.hpp"
 #include "AL_AISpawning_BP_classes.hpp"
+#include "CoreUObject_classes.hpp"
 #include "Prospect_classes.hpp"
 
 namespace SDK

@@ -134,14 +134,14 @@ void UItemComponent_Tooltip_C::SetAddPriceInfo(bool Value)
 }
 
 
-// Function ItemComponent_Tooltip.ItemComponent_Tooltip_C.GetToolTipWidget
+// Function ItemComponent_Tooltip.ItemComponent_Tooltip_C.GetTooltipWidget
 // (FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)
 // Parameters:
 // class UWBP_ItemTooltip_C*      Tooltip                        (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
-void UItemComponent_Tooltip_C::GetToolTipWidget(class UWBP_ItemTooltip_C** Tooltip)
+void UItemComponent_Tooltip_C::GetTooltipWidget(class UWBP_ItemTooltip_C** Tooltip)
 {
-	static UFunction* fn = UObject::FindObject<UFunction>(_xor_("Function ItemComponent_Tooltip.ItemComponent_Tooltip_C.GetToolTipWidget"));
+	static UFunction* fn = UObject::FindObject<UFunction>(_xor_("Function ItemComponent_Tooltip.ItemComponent_Tooltip_C.GetTooltipWidget"));
 
 	struct
 	{

@@ -9,9 +9,9 @@
 #include "Basic.hpp"
 #include "Engine_classes.hpp"
 #include "AnimGraphRuntime_classes.hpp"
-#include "AnimArchetypeEnum_classes.hpp"
 #include "BackendModels_classes.hpp"
 #include "Prospect_classes.hpp"
+#include "AnimArchetypeEnum_classes.hpp"
 #include "NPC_States_classes.hpp"
 
 namespace SDK

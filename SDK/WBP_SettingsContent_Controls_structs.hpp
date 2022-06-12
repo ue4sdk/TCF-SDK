@@ -7,10 +7,10 @@
 #endif
 
 #include "Basic.hpp"
-#include "Structure_SelectorData_classes.hpp"
-#include "WBP_SettingsContentBase_classes.hpp"
 #include "Engine_classes.hpp"
+#include "WBP_SettingsContentBase_classes.hpp"
 #include "UMG_classes.hpp"
+#include "Structure_SelectorData_classes.hpp"
 
 namespace SDK
 {

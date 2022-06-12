@@ -21,7 +21,7 @@ class AAA_SafetyTrigger_BP_C : public AAA_Trigger_BP_C
 public:
 	unsigned char                                      UnknownData00[0x3];                                       // 0x0295(0x0003) MISSED OFFSET
 	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0298(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
-	class UParticleSystemComponent*                    P_sparks;                                                 // 0x02A0(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class UParticleSystemComponent*                    P_Sparks;                                                 // 0x02A0(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 	class UStaticMeshComponent*                        PowerUp_SwitchHandle;                                     // 0x02A8(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 	float                                              OnSwitchActivate_TL_SwitchRotation_5C958A0A40580701B668C38789DB6832;// 0x02B0(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 	TEnumAsByte<ETimelineDirection>                    OnSwitchActivate_TL__Direction_5C958A0A40580701B668C38789DB6832;// 0x02B4(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)

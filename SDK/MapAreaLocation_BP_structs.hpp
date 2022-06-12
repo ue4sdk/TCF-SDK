@@ -8,10 +8,10 @@
 
 #include "Basic.hpp"
 #include "Prospect_classes.hpp"
-#include "MapAreaDifficulty_ENUM_classes.hpp"
 #include "Engine_classes.hpp"
-#include "MapAreaDifficulty_ST_classes.hpp"
 #include "CoreUObject_classes.hpp"
+#include "MapAreaDifficulty_ENUM_classes.hpp"
+#include "MapAreaDifficulty_ST_classes.hpp"
 
 namespace SDK
 {

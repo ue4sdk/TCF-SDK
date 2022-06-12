@@ -28,8 +28,8 @@ public:
 	}
 
 
-	void ExtractAutomationTestFromCommandLine(const struct FString& CommandLine, struct FString* AutomationTest);
-	void Start(const struct FString& CommandLine, bool* succeeded);
+	void ExtractAutomationTestFromCommandLine(const struct FString& commandLine, struct FString* AutomationTest);
+	void Start(const struct FString& commandLine, bool* succeeded);
 };
 
 

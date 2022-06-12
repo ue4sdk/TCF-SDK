@@ -7,9 +7,9 @@
 #endif
 
 #include "Basic.hpp"
-#include "Structure_DeveloperCredits_classes.hpp"
 #include "ScreenSystem_classes.hpp"
 #include "Engine_classes.hpp"
+#include "Structure_DeveloperCredits_classes.hpp"
 
 namespace SDK
 {

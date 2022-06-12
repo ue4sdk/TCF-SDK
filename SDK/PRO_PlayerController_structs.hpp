@@ -8,10 +8,10 @@
 
 #include "Basic.hpp"
 #include "Prospect_classes.hpp"
+#include "ST_EffortData_classes.hpp"
 #include "Engine_classes.hpp"
 #include "CoreUObject_classes.hpp"
 #include "InputCore_classes.hpp"
-#include "ST_EffortData_classes.hpp"
 
 namespace SDK
 {

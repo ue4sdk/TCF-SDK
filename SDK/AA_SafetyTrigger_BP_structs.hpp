@@ -7,9 +7,9 @@
 #endif
 
 #include "Basic.hpp"
+#include "Prospect_classes.hpp"
 #include "AA_Trigger_BP_classes.hpp"
 #include "Engine_classes.hpp"
-#include "Prospect_classes.hpp"
 #include "CoreUObject_classes.hpp"
 
 namespace SDK

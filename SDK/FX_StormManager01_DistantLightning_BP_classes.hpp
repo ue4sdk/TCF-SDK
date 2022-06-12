@@ -37,7 +37,7 @@ public:
 
 
 	void playAudio(const struct FVector& Location);
-	void SpawnLightning();
+	void spawnLightning();
 	void SetDistantLightingProperties(const struct FYMatchPhaseVisualRow& VisualData);
 	void ReceiveBeginPlay();
 	void ExecuteUbergraph_FX_StormManager01_DistantLightning_BP(int EntryPoint);

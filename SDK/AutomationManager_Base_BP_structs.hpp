@@ -10,8 +10,8 @@
 #include "Engine_classes.hpp"
 #include "Prospect_classes.hpp"
 #include "AutomationTestStartData_classes.hpp"
-#include "AutomationResultCode_classes.hpp"
 #include "YInitializationPlugin_classes.hpp"
+#include "AutomationResultCode_classes.hpp"
 
 namespace SDK
 {

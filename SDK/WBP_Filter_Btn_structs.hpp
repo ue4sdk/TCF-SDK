@@ -7,12 +7,12 @@
 #endif
 
 #include "Basic.hpp"
-#include "En_FilterCategoryCollection_classes.hpp"
-#include "Stucture_FilterData_classes.hpp"
 #include "WBP_ButtonBase_Btn_classes.hpp"
 #include "Engine_classes.hpp"
-#include "Structure_FilterCategoryBtnData_classes.hpp"
 #include "UMG_classes.hpp"
+#include "Stucture_FilterData_classes.hpp"
+#include "Structure_FilterCategoryBtnData_classes.hpp"
+#include "En_FilterCategoryCollection_classes.hpp"
 #include "Prospect_classes.hpp"
 
 namespace SDK

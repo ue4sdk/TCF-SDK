@@ -46,7 +46,7 @@ public:
 	void ShowTooltip();
 	void SetFactionId(const struct FName& factionId);
 	void SetAddPriceInfo(bool Value);
-	void GetToolTipWidget(class UWBP_ItemTooltip_C** Tooltip);
+	void GetTooltipWidget(class UWBP_ItemTooltip_C** Tooltip);
 	class UWBP_ItemTooltip_C* GetTooltipWidgetFactionShop();
 	class UWBP_ItemTooltip_C* GetTooltipWidgetLoadout();
 	class UWBP_ItemTooltip_C* GetTooltipWidgetStash();

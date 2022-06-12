@@ -7,12 +7,12 @@
 #endif
 
 #include "Basic.hpp"
+#include "Prospect_classes.hpp"
 #include "WBP_TabElementBase_TabElem_classes.hpp"
 #include "Engine_classes.hpp"
 #include "Stucture_TabData_classes.hpp"
-#include "Stucture_TabBIData_classes.hpp"
-#include "Prospect_classes.hpp"
 #include "UMG_classes.hpp"
+#include "Stucture_TabBIData_classes.hpp"
 
 namespace SDK
 {

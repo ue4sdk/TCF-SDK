@@ -7,8 +7,8 @@
 #endif
 
 #include "Basic.hpp"
-#include "STR_MagnetismPresetDesc_classes.hpp"
 #include "STR_AutoAimPresetDesc_classes.hpp"
+#include "STR_MagnetismPresetDesc_classes.hpp"
 
 namespace SDK
 {

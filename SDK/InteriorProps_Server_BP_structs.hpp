@@ -8,8 +8,8 @@
 
 #include "Basic.hpp"
 #include "Engine_classes.hpp"
-#include "InteriorProps_ServerRacks_classes.hpp"
 #include "CoreUObject_classes.hpp"
+#include "InteriorProps_ServerRacks_classes.hpp"
 
 namespace SDK
 {

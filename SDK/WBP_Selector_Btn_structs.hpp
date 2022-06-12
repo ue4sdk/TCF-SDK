@@ -7,9 +7,9 @@
 #endif
 
 #include "Basic.hpp"
-#include "Structure_SelectorData_classes.hpp"
 #include "Prospect_classes.hpp"
 #include "Engine_classes.hpp"
+#include "Structure_SelectorData_classes.hpp"
 #include "SlateCore_classes.hpp"
 #include "CoreUObject_classes.hpp"
 #include "UMG_classes.hpp"

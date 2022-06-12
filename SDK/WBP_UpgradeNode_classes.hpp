@@ -85,7 +85,7 @@ public:
 	void TryToHighlightTechTree();
 	void MaxLevelState(bool Condition);
 	void GetFormattedTime(const struct FTimespan& InTimespan, struct FText* Result);
-	class UWidget* GetToolTipWidget_1();
+	class UWidget* GetTooltipWidget_1();
 	void RefreshProgress();
 	void SelectedState(bool Condition, const struct FYTechTreeNodeType& nodeData);
 	void Refresh_Tech_Tree_Node();

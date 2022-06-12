@@ -61475,16 +61475,16 @@ struct FVector UKismetMathLibrary::ProjectVectorOnToVector(const struct FVector&
 }
 
 
-// Function Engine.KismetMathLibrary.ProjectVectorOnToPlane
+// Function Engine.KismetMathLibrary.ProjectVectorOntoPlane
 // (FUNC_Final, FUNC_Native, FUNC_Static, FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintPure)
 // Parameters:
 // struct FVector                 V                              (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 // struct FVector                 PlaneNormal                    (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 // struct FVector                 ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-struct FVector UKismetMathLibrary::ProjectVectorOnToPlane(const struct FVector& V, const struct FVector& PlaneNormal)
+struct FVector UKismetMathLibrary::ProjectVectorOntoPlane(const struct FVector& V, const struct FVector& PlaneNormal)
 {
-	static UFunction* fn = UObject::FindObject<UFunction>(_xor_("Function Engine.KismetMathLibrary.ProjectVectorOnToPlane"));
+	static UFunction* fn = UObject::FindObject<UFunction>(_xor_("Function Engine.KismetMathLibrary.ProjectVectorOntoPlane"));
 
 	struct
 	{

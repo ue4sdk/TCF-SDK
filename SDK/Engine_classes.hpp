@@ -3398,7 +3398,7 @@ public:
 	struct FSoftObjectPath                             SubtitleFontName;                                         // 0x00C0(0x0018) (CPF_Edit, CPF_ZeroConstructor, CPF_Config, CPF_GlobalConfig, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	TArray<class UFont*>                               AdditionalFonts;                                          // 0x00D8(0x0010) (CPF_ZeroConstructor, CPF_NativeAccessSpecifierPrivate)
 	TArray<struct FString>                             AdditionalFontNames;                                      // 0x00E8(0x0010) (CPF_Edit, CPF_ZeroConstructor, CPF_Config, CPF_GlobalConfig, CPF_AdvancedDisplay, CPF_NativeAccessSpecifierPublic)
-	class UClass* /*UConsole*/                         ConsoleClass;                                             // 0x00F8(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UClass* /*Uconsole*/                         ConsoleClass;                                             // 0x00F8(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FSoftClassPath                              ConsoleClassName;                                         // 0x0100(0x0018) (CPF_Edit, CPF_ZeroConstructor, CPF_Config, CPF_GlobalConfig, CPF_NoClear, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	class UClass* /*UGameViewportClient*/              GameViewportClientClass;                                  // 0x0118(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FSoftClassPath                              GameViewportClientClassName;                              // 0x0120(0x0018) (CPF_Edit, CPF_ZeroConstructor, CPF_Config, CPF_GlobalConfig, CPF_NoClear, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
@@ -3820,7 +3820,7 @@ class UGameViewportClient : public UScriptViewportClient
 {
 public:
 	unsigned char                                      UnknownData00[0x8];                                       // 0x0040(0x0008) MISSED OFFSET
-	class UConsole*                                    ViewportConsole;                                          // 0x0048(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class Uconsole*                                    ViewportConsole;                                          // 0x0048(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	TArray<struct FDebugDisplayProperty>               DebugProperties;                                          // 0x0050(0x0010) (CPF_ZeroConstructor, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData01[0x10];                                      // 0x0060(0x0010) MISSED OFFSET
 	int                                                MaxSplitscreenPlayers;                                    // 0x0070(0x0004) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
@@ -7861,9 +7861,9 @@ public:
 };
 
 
-// Class Engine.Console
+// Class Engine.console
 // 0x0108 (0x0138 - 0x0030)
-class UConsole : public UObject
+class Uconsole : public UObject
 {
 public:
 	unsigned char                                      UnknownData00[0x10];                                      // 0x0030(0x0010) MISSED OFFSET
@@ -7876,7 +7876,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Engine.Console"));
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Engine.console"));
 		return ptr;
 	}
 
@@ -11948,7 +11948,7 @@ public:
 	static void Quat_EnforceShortestArcWith(const struct FQuat& B, struct FQuat* A);
 	static float Quat_AngularDistance(const struct FQuat& A, const struct FQuat& B);
 	static struct FVector ProjectVectorOnToVector(const struct FVector& V, const struct FVector& Target);
-	static struct FVector ProjectVectorOnToPlane(const struct FVector& V, const struct FVector& PlaneNormal);
+	static struct FVector ProjectVectorOntoPlane(const struct FVector& V, const struct FVector& PlaneNormal);
 	static struct FVector ProjectPointOnToPlane(const struct FVector& Point, const struct FVector& PlaneBase, const struct FVector& PlaneNormal);
 	static bool PointsAreCoplanar(TArray<struct FVector> Points, float Tolerance);
 	static float PerlinNoise1D(float Value);

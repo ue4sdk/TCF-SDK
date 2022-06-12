@@ -7,11 +7,11 @@
 #endif
 
 #include "Basic.hpp"
+#include "Stucture_FilterData_classes.hpp"
 #include "ScreenSystem_classes.hpp"
 #include "Engine_classes.hpp"
 #include "Stucture_FilterCollection_classes.hpp"
 #include "En_FilterCategoryCollection_classes.hpp"
-#include "Stucture_FilterData_classes.hpp"
 #include "Prospect_classes.hpp"
 
 namespace SDK

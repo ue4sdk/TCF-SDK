@@ -7,9 +7,9 @@
 #endif
 
 #include "Basic.hpp"
-#include "CoreUObject_classes.hpp"
 #include "BaseSpline_BP_classes.hpp"
 #include "Engine_classes.hpp"
+#include "CoreUObject_classes.hpp"
 
 namespace SDK
 {

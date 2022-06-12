@@ -106,14 +106,14 @@ void UWBP_UpgradeNode_C::GetFormattedTime(const struct FTimespan& InTimespan, st
 }
 
 
-// Function WBP_UpgradeNode.WBP_UpgradeNode_C.GetToolTipWidget_1
+// Function WBP_UpgradeNode.WBP_UpgradeNode_C.GetTooltipWidget_1
 // (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)
 // Parameters:
 // class UWidget*                 ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
-class UWidget* UWBP_UpgradeNode_C::GetToolTipWidget_1()
+class UWidget* UWBP_UpgradeNode_C::GetTooltipWidget_1()
 {
-	static UFunction* fn = UObject::FindObject<UFunction>(_xor_("Function WBP_UpgradeNode.WBP_UpgradeNode_C.GetToolTipWidget_1"));
+	static UFunction* fn = UObject::FindObject<UFunction>(_xor_("Function WBP_UpgradeNode.WBP_UpgradeNode_C.GetTooltipWidget_1"));
 
 	struct
 	{

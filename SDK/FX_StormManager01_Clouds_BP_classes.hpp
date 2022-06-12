@@ -43,7 +43,7 @@ public:
 
 
 	void SetCloudProperties(const struct FYMatchPhaseVisualRow& VisualData);
-	void SpawnLightning();
+	void spawnLightning();
 	void ReceiveBeginPlay();
 	void updateLightning();
 	void setCloudState(float State);

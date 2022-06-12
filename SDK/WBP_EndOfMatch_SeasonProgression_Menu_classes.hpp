@@ -61,15 +61,15 @@ public:
 	}
 
 
-	void GetNumberOfTimesCompletedFrom_DeltaActions(const struct FString& InputActionId, int* outNumberOfTimesCompleted);
+	void GetNumberOfTimesCompletedFrom_DeltaActions(const struct FString& inputActionId, int* outNumberOfTimesCompleted);
 	void CheckIfLevelUp(bool* IsLevelUp);
 	void OnStageUpdated(int stage);
 	void Refresh();
 	void OnCurrentDataUpdated(const struct FYFortunaPassPlayerData& Data);
-	void GetActionNumberOfTimesCompletedById(const struct FString& InputActionId, int* NumberOfTimesCompleted);
+	void GetActionNumberOfTimesCompletedById(const struct FString& inputActionId, int* NumberOfTimesCompleted);
 	void InitExecution();
-	void GetActionDataById(const struct FString& InputActionId, struct FYFortunaPassAction* FortunaPassAction, bool* IsActionDataFound);
-	void CheckIfActionIsCompletedThisDrop(const struct FString& InputActionId, bool* IsActionFound);
+	void GetActionDataById(const struct FString& inputActionId, struct FYFortunaPassAction* FortunaPassAction, bool* IsActionDataFound);
+	void CheckIfActionIsCompletedThisDrop(const struct FString& inputActionId, bool* IsActionFound);
 	void CreateActionEntriesIfActionCompleted(const struct FYFortunaPassAction& FortunaPassAction);
 	void SetStage(int stage);
 	void Skip();

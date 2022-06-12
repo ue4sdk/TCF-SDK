@@ -49,7 +49,7 @@ public:
 	struct FVector2D                                   EndScale;                                                 // 0x02F8(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 	struct FVector                                     MeshToSplineOffset;                                       // 0x0300(0x000C) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 	unsigned char                                      UnknownData04[0x4];                                       // 0x030C(0x0004) MISSED OFFSET
-	TMap<int, struct FSplineMeshData_FSplineMeshData>  PlacedSplineMeshes;                                       // 0x0310(0x0050) (CPF_Edit, CPF_BlueprintVisible)
+	TMap<int, struct FSplineMeshData>                  PlacedSplineMeshes;                                       // 0x0310(0x0050) (CPF_Edit, CPF_BlueprintVisible)
 	float                                              StartRoll;                                                // 0x0360(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 	struct FVector2D                                   ScaleRandomization;                                       // 0x0364(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 	TEnumAsByte<ESplineMeshAxis>                       Forward_Axis;                                             // 0x036C(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)

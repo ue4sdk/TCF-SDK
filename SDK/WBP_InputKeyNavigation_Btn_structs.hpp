@@ -9,8 +9,8 @@
 #include "Basic.hpp"
 #include "WBP_ButtonBase_Btn_classes.hpp"
 #include "Engine_classes.hpp"
-#include "UMG_classes.hpp"
 #include "Structure_InputKeyNav_classes.hpp"
+#include "UMG_classes.hpp"
 
 namespace SDK
 {

@@ -51,7 +51,7 @@ public:
 
 	void SequenceEvent__ENTRYPOINTWBP_Common_Simple_Btn_1();
 	void SetShowDeco(bool Condition);
-	class UWidget* GetToolTipWidget_1();
+	class UWidget* GetTooltipWidget_1();
 	void IsButtonDisabled(bool IsDisabled);
 	void EmptyBtn_TriggerAnim();
 	void PreConstruct(bool IsDesignTime);

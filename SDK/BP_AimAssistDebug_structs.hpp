@@ -7,10 +7,10 @@
 #endif
 
 #include "Basic.hpp"
+#include "ENUM_CharacterAimState_classes.hpp"
 #include "Engine_classes.hpp"
 #include "STR_AimAssistWPNPresetDesc_classes.hpp"
 #include "CoreUObject_classes.hpp"
-#include "ENUM_CharacterAimState_classes.hpp"
 
 namespace SDK
 {
